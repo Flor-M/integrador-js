@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "roboto-regular";
+    src: url(./assets/fonts/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: "roboto-medium";
+    src: url(./assets/fonts/Roboto-Medium.ttf)
+}
+
+body {
+    width: 100vw;
+    margin: 0%;
+}
+
+*{
+    font-family: "roboto-medium";
+    color: #303031;
+}
+
+.logo-container-header{
+    height: 71%;
+}
+
+.logo-header {
+    height: 100%;
+}
+
+.header-nav {
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    align-items: center;
+    border-bottom: solid #303031 1px;
+}
+
+li {
+    list-style: none;
+    margin: 0rem 2rem;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #303031;
+    transition-duration: 0.3s;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+.nav-list a:hover {
+    cursor: pointer;
+    color: #c66177;
+}
+
+.header-container{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-container{
+    height: 73%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-welcome {
+    height: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-container {
+    height: 52%;
+}
+
+.logo-big{
+    height: 100%;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.textos p {
+    margin: 0;
+    font-size: 1.1rem;
+    font-family: "roboto-regular";
+    
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 1.4rem;
+    font-family: "roboto-regular";
+    margin-bottom: 1rem;
+    
+}
+
+.btn {
+    border: none;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: #c66177;
+    color: #f7f7f7;
+    transition-duration: 0.3s;
+}
+
+.btn:hover {
+    background-color: #a24f61;
+}
+
+.img-container {
+    height: 86%;
+}
+
+.img-big{
+    height: 100%;
+}
+
+footer {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(./assets/img/background-footer.jpg);
+    background-size: cover;
+}
+

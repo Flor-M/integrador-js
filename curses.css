@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "roboto-regular";
+    src: url(./assets/fonts/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: "roboto-medium";
+    src: url(./assets/fonts/Roboto-Medium.ttf)
+}
+@font-face {
+    font-family: "ibarra";
+    src: url(./assets/fonts/IbarraRealNova-VariableFont_wght.ttf)
+}
+
+body {
+    width: 100vw;
+    margin: 0%;
+}
+
+*{
+    font-family: "roboto-medium";
+    color: #303031;
+}
+
+.logo-container-header{
+    height: 71%;
+}
+
+.logo-header {
+    height: 100%;
+}
+
+.header-nav {
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    align-items: center;
+    border-bottom: solid #303031 1px;
+}
+
+li {
+    list-style: none;
+    margin: 0rem 2rem;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #303031;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+}
+
+.nav-list a:hover {
+    cursor: pointer;
+    color: #c66177;
+}
+
+main {
+    margin: 4rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: "ibarra";
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.user-container{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.cursos-list{
+    padding: 0rem 2rem;
+    height: 70vh;
+}
+
+.elije-curso-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 2rem 4rem 2rem;
+}
+
+.choose-container{
+    display: flex;
+}
+
+.input-choose{
+    width: 25vw;
+    box-sizing: border-box;
+    border: 1.5px solid #c66177;
+    font-family: "roboto-regular";
+    padding: 0.3rem 1.5rem 0.3rem 0.3rem;
+    transition-duration: 0.3s;
+}
+
+#input-choose:focus {
+    outline: #c66177;
+    color: #c66177;
+
+}
+
+.chooseButton {
+    width: 40px;
+    height: 29px;
+    cursor: pointer;
+    background-color: #c66177;
+    transition-duration: 0.3s;
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lupita{
+    height: 80%;
+}
+
+.chooseButton:hover{
+    background-color: #a24f61;
+}
+
+.curso-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2eeee;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 2rem;
+    transition-duration: 0.3s;
+}
+
+.curso-item:hover{
+    background-color: #c66177;
+}
+
+.curso-item:hover h3, .curso-item:hover  p, .curso-item:hover  span {
+    color: #f2eeee;
+}
+
+.curso-info{
+    display: flex;
+}
+
+.curso-info-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 1rem;
+}
+
+.error{
+    color: #c66177;
+    margin: 4rem;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+p, span {
+    font-family: "roboto-regular";
+    margin: 0.2rem 0rem;
+    font-size: 0.9rem;
+}
+
+footer {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(./assets/img/background-footer.jpg);
+    background-size: cover;
+}

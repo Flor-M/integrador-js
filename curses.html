@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./curses.css">
+    <script src="https://kit.fontawesome.com/e14e491556.js" crossorigin="anonymous"></script>
+    <title>
+        Academia Web BioPoke - Integrador JS
+    </title>
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <div class="logo-container-header">
+                <a href="./index.html">
+                    <img class="logo-header" src="./assets/img/logo-header-biopoke.png" alt="Logo BioPoke con pokebola">
+                </a>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="./login.html">
+                        Iniciar sesión
+                    </a>
+                </li>
+                <li>
+                    <a href="./curses.html">
+                        Academia Web
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>
+            Academy BioPoke
+        </h1>
+        <div class="user-container"></div>
+        <div class="elije-curso-container ">
+            <div class="choose-container">
+                <input type="text" class="input-choose" id="input-choose" placeholder="Busca el curso por el nombre del pokemón...">
+                <button class="chooseButton">
+                    <img class="lupita" src="./assets/img/search-icon.png" alt="Icono de lupa">
+                </button>
+            </div>
+        </div>
+        <div class="cursos-container">
+            <ul class="cursos-list"></ul>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="./curses.js"></script>
+</body>
+</html>

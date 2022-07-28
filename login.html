@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <title>
+        Academia Web BioPoke - Integrador JS
+    </title>
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <div class="logo-container-header">
+                <a href="./index.html">
+                    <img class="logo-header" src="./assets/img/logo-header-biopoke.png" alt="Logo BioPoke con pokebola">
+                </a>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="./login.html">
+                        Iniciar sesión
+                    </a>
+                </li>
+                <li>
+                    <a href="./curses.html">
+                        Academia Web
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>
+            Inicia sesión
+        </h1>
+        
+        <form action="" class="form-container">
+            <div class="container-input">
+                <input placeholder="Nombre de usuario" class="input-name">
+            </div>
+            <div id="error-name" class="errorAlert"></div>
+            <div class="container-input">
+                <input type="password" name="password" autocomplete="on" class="input-password" placeholder="Contraseña">
+            </div>
+            <div id="error-password" class="errorAlert"></div>
+            <div class="recuerdame-container">
+                <input type="checkbox">
+                <label for="recuerdame">
+                    Recuérdame
+                </label>
+            </div>
+            <a href="" class="forgot-pass">
+                ¿Olvidaste tu contraseña?
+            </a>
+            <button type="submit" class="btn">
+                Enviar
+            </button>
+        </form>
+    </main>
+
+    <footer></footer>
+    
+    <script src="./login.js"></script>
+</body>
+</html>
